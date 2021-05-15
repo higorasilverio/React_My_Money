@@ -1,12 +1,10 @@
 import React from 'react'
 
 export default props => (
-    <footer className="main-footer">
-        <strong>
-            Copyright &copy; 2021 &nbsp;
-            <a href="https://github.com/higorasilverio" target='_blank'>
-                higorasilverio <i className="fa fa-github"></i>
-            </a>
+    <footer className='main-footer'> 
+        <strong> 
+            Copyright &copy; 2017
+            <a href='http://cod3r.com.br' target='_blank' rel="noopener noreferrer"> Cod3r</a>.
         </strong>
     </footer>
 )

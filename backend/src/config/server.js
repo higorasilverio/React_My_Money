@@ -8,13 +8,11 @@ const queryParser = require('express-query-int')
 
 server.use(bodyParser.urlencoded({ extended: true }))
 server.use(bodyParser.json())
-server.use(queryParser({
-    parser: parseInt
-}))
 server.use(allowCors)
+server.use(queryParser())
 
 server.listen(port, function() {
-    console.log(`BACKEND application is running at port ${port}.`)
+    console.log(`BACKEND is running on port ${port}.`)
 })
 
 module.exports = server

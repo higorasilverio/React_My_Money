@@ -1,7 +1,7 @@
 {
   "name": "my-money-backend",
   "version": "1.0.0",
-  "description": "Backend application for the personal finances dashboard",
+  "description": "",
   "main": "src/loader.js",
   "scripts": {
     "dev": "nodemon",
@@ -11,16 +11,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "express-query-int": "^3.0.0",
+    "bcrypt": "5.0.0",
+    "body-parser": "1.18.3",
+    "express": "4.16.3",
+    "express-query-int": "3.0.0",
+    "jsonwebtoken": "8.3.0",
     "lodash": "^4.17.21",
-    "mongoose": "^5.12.7",
-    "mongoose-paginate": "^5.0.3",
-    "node-restful": "^0.2.6",
-    "pm2": "^4.5.6"
+    "mongoose": "^5.12.9",
+    "mongoose-paginate": "5.0.3",
+    "node-restful": "0.2.6",
+    "pm2": "3.0.4"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "1.18.4"
   }
 }
